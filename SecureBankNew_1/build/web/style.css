@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+#menu
+	{
+	height:51px;
+	padding:0px;
+	width: 996px;
+	margin: 0 auto;
+	float: none;
+	padding-left: 0px;
+	background: url(images/main_menu_bg.jpg) no-repeat;
+	}
+#menu ul
+	{
+	width:944px;
+	height:51px;
+	float:none;
+	margin:0 0 0 27px;
+	padding:0px;
+	display:block;
+	background-image:url(images/menu_bar.jpg);
+	}
+#menu ul li
+	{
+		height:51px;
+		float:left;
+		margin:0 1px 0 0;
+		padding:0 1px 0 0;
+		display:block;		
+	}
+#menu ul li a.menu
+	{
+		margin:0px;
+		padding:15px 10px 0 6px;  
+		min-width:100px;
+		height:34px;
+		float:left;
+		font-family:Arial;
+		font-size:13px;
+		font-weight:bold;
+		color:#FFF;
+		text-align:center;
+		text-decoration:none;
+		background-image:url(images/menuover_1.jpg);
+		background-repeat:repeat-x;
+	}
+	
+	#menu ul li a.currentmenu
+	{
+	margin:0px;
+	padding:15px 10px 0 8px;
+	min-width:100px;
+	height:34px;
+	float:left;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	color:#FFF;
+	text-align:center;
+	text-decoration:none;
+	background-image:url(images/menu_1.jpg);
+	background-repeat:repeat-x;
+	}
+		
+#menu ul li a.menu:hover
+	{
+		margin:0px;
+		padding:15px 10px 0 6px;
+		min-width:100px;
+		height:34px;
+		float:left;
+		font-family:Arial;
+		font-size:13px;
+		font-weight:bold;
+		color:#FFF;
+		text-align:center;
+		text-decoration:none;
+		background-image: url(images/menu_1.jpg);
+		background-repeat:repeat-x;		
+	}
